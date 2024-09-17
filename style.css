@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('nature.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    background-blend-mode:color-burn
+}
+h1, h2 {
+    background-image: linear-gradient(to right, rgb(137, 173, 173), rgb(128, 128, 128),rgba(61, 198, 236, 0.616));
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+
+}
+h1{
+    width:auto ;
+    align-items: center;
+    gap: 2px;
+    line-height: 1.5;
+   
+}
+h1 span{
+    color: rgba(196, 254, 6, 0.523);
+   
+}
+table {
+    width: 60%;
+    
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(52, 11, 233, 0.904);
+}
+td, th {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+form{
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-image: url(bird.webp);
+    background-blend-mode: color;
+    background-color: rgba(235, 208, 208, 0.801);
+    border-radius: 25px 10px;
+    box-shadow: 4px 4px 4px rgb(74, 58, 58);
+}
+
+button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 8px;
+    background-image: linear-gradient(to right, rgb(151, 194, 99), rgb(115, 135, 100),rgba(40, 203, 15, 0.616));
+    color: rgb(251, 251, 244);
+    border-radius: 3px 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid rgb(33, 33, 15);
+    font-size: 19px;
+    text-align: center;
+    justify-content: center;
+}
+
+button:hover{
+    background-image: linear-gradient(to right, rgb(100, 106, 144), rgb(115, 135, 100),rgba(10, 41, 165, 0.616));
+}
+
+#resumeOutput{
+    max-width: 550px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(132, 132, 96);
+    background-image: linear-gradient(to right, rgb(241, 236, 232), rgb(187, 158, 79),rgba(129, 122, 117, 0.616));
+    color: rgb(67, 29, 25);
+    border-radius: 3px 8px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('nature.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    background-blend-mode:color-burn
+}
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    gap: 30px;
+    background-image: linear-gradient(to right, rgb(150, 228, 228), rgb(128, 128, 128),rgba(220, 238, 243, 0.616));
+    margin: 10px;
+    box-shadow: inset 5px 5px 10px rgba(1, 14, 3, 0.5);
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fb8107;
+    border-radius: 2px solid black;
+  }
+  header .logo:hover {
+    color: aqua;
+  }
+  
+  header nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav a {
+    color: #2f0b11;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  header nav a:hover {
+    color: #06f566;
+  }
+  
+  
+
+h1, h2 {
+    background-image: linear-gradient(to right, rgb(137, 173, 173), rgb(128, 128, 128),rgba(61, 198, 236, 0.616));
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+
+}
+h1{
+    width:auto ;
+    align-items: center;
+    gap: 2px;
+    line-height: 1.5;
+   
+}
+h1 span{
+    color: rgba(196, 254, 6, 0.523);
+   
+}
+
+table {
+    width: 60%;
+    
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(52, 11, 233, 0.904);
+}
+td, th {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+form{
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-image: url(bird.webp);
+    background-blend-mode: color;
+    background-color: rgba(235, 208, 208, 0.801);
+    border-radius: 25px 10px;
+    box-shadow: 4px 4px 4px rgb(74, 58, 58);
+}
+
+button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 8px;
+    background-image: linear-gradient(to right, rgb(151, 194, 99), rgb(115, 135, 100),rgba(40, 203, 15, 0.616));
+    color: rgb(251, 251, 244);
+    border-radius: 3px 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid rgb(33, 33, 15);
+    font-size: 19px;
+    text-align: center;
+    justify-content: center;
+}
+
+button:hover{
+    background-image: linear-gradient(to right, rgb(100, 106, 144), rgb(115, 135, 100),rgba(10, 41, 165, 0.616));
+}
+
+#resumeOutput{
+    max-width: 550px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid rgb(132, 132, 96);
+    background-image: linear-gradient(to right, rgb(241, 236, 232), rgb(187, 158, 79),rgba(129, 122, 117, 0.616));
+    color: rgb(67, 29, 25);
+    border-radius: 3px 8px;
+    
+}
+
+#resumeOutput h2{
+    color: rgb(171, 202, 44);
+}
+/* profile picture styling */
+#resumeOutput img{
+display: block;
+margin: 0 auto;
+border: 2px solid rgb(132, 132, 96);
+box-shadow: 2px solid rgb(220, 220, 116);
+border-radius: 500%;
+width: 150px;
+height: 150px;
+object-fit: cover;
+}
+/* footer styling */
+footer{
+    border: 2px solid white;
+    height:200px ;
+    width:100% ;
+    background-image: linear-gradient(to right, rgb(241, 236, 232), rgb(187, 158, 79),rgba(129, 122, 117, 0.616));
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+footer h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#resumeOutput h2{
+    color: rgb(213, 240, 101);
+}
