@@ -225,20 +225,26 @@ height: 150px;
 object-fit: cover;
 }
 /* footer styling */
-footer{
-    border: 2px solid white;
-    height:200px ;
-    width:100% ;
-    background-image: linear-gradient(to right, rgb(241, 236, 232), rgb(187, 158, 79),rgba(129, 122, 117, 0.616));
-justify-content: center;
-align-items: center;
-text-align: center;
-}
-footer h2{
+footer {
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5rem 0rem;
+  }
+  .footer {
+      background-image: linear-gradient(to right, rgb(150, 228, 228), rgb(128, 128, 128),rgba(220, 238, 243, 0.616));
+    width: 70%;
+    height: 70px;
+    color: wheat;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: 700;
     text-align: center;
-}
+    align-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
 #resumeOutput h2{
     color: rgb(213, 240, 101);
 }
