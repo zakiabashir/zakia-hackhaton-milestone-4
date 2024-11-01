@@ -4,6 +4,7 @@ var _a;
     var _a;
     event.preventDefault();
     const profilePictureInput = document.getElementById("profilepicture");
+    //    profile picture functionality
     const profilePictureFile = (_a = profilePictureInput.files) === null || _a === void 0 ? void 0 : _a[0];
     const profilePictureUrl = profilePictureFile ? URL.createObjectURL(profilePictureFile) : '';
     if (profilePictureFile) {
@@ -70,9 +71,10 @@ function generateResume(profilePictureUrl) {
     const coverLetter = coverLetterElement.value;
     const cvPath = cvPathUrlElement.value;
     const uniquePath = `resume/${cvPath.replace(/\s+/g, '_')}_cv.html`;
+    // cv output
     const resumeOutput = `
         <h1>Your Generated CV</h1>
-        ${profilePictureUrl ? `<img src="${profilePictureUrl}" alt="profile picture" class="profile-picture" style="width: 150px; height: auto; border-radius: 50%;">` : ""}
+        ${profilePictureUrl ? `<img src="${profilePictureUrl}" alt="profile picture" class="profile-picture" style="width: 150px; height: 150px; border-radius: 50%;">` : ""}
         <p><strong>First Name:</strong> ${firstName}</p>
         <p><strong>Last Name:</strong> ${lastName}</p>
         <p><strong>Email:</strong> ${email}</p>
@@ -131,6 +133,7 @@ function generateResume(profilePictureUrl) {
         console.error('Failed to display the generated resume');
     }
 }
+// editability function
 function makeEditable() {
     const editableElements = document.querySelectorAll('.editable');
     editableElements.forEach(element => {

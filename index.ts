@@ -77,7 +77,7 @@ const hobbies = Array.from(document.querySelectorAll('input[name="hobbies"]:chec
 // cv output
     const resumeOutput = `
         <h1>Your Generated CV</h1>
-        ${profilePictureUrl ? `<img src="${profilePictureUrl}" alt="profile picture" class="profile-picture" style="width: 150px; height: auto; border-radius: 50%;">` : ""}
+        ${profilePictureUrl ? `<img src="${profilePictureUrl}" alt="profile picture" class="profile-picture" style="width: 150px; height: 150px; border-radius: 50%;">` : ""}
         <p><strong>First Name:</strong> ${firstName}</p>
         <p><strong>Last Name:</strong> ${lastName}</p>
         <p><strong>Email:</strong> ${email}</p>
