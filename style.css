@@ -6,8 +6,6 @@
   }
 /* Apply these to the body to remove any extra space on small screens */
 body {
-    margin: 0;
-    padding: 0;
     overflow-x: hidden;
 }
 body {
@@ -55,7 +53,6 @@ td, th {
 form{
     max-width: 600px;
     align-items: center;
-    justify-content: center;
     margin: auto;
     background-image: url(bird.webp);
     background-blend-mode: color;
@@ -164,8 +161,7 @@ h1 span{
 }
 
 table {
-    width: 60%;
-    
+    width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -334,6 +330,7 @@ footer {
 }
     input[type="text"], input[type="email"], textarea {
         font-size: 15px;
+        box-sizing: border-box;
     }
 
     button {
