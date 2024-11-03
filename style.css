@@ -41,8 +41,7 @@ h1 span{
    
 }
 table {
-    width: 60%;
-    
+    width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.8);
